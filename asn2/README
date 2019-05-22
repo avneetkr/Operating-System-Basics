@@ -1,0 +1,11 @@
+
+To compile all files enter: 
+'$ make'
+To compile one of minimal-system-call-timer, minimal-function-call-timer, process_switching_timer or thread_switching_timer: 
+'$ make <nameoffile>'
+Here <nameoffile> refers to the above mentioned files in the format <nameoffile>.c. 
+To run, enter:
+'$ ./minimal-system-call-timer'
+'$ ./minimal-function-call-timer'
+'$ ./process_switching_timer'
+'$ ./thread_switching_timer'
